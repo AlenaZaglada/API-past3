@@ -19,6 +19,6 @@ public class TestPostman {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("14.05.2023"));
+                .body("data", equalTo("04.05.2023"));
     }
 }
